@@ -1,4 +1,4 @@
-ID,CODAUTO,CPRO,NOMBRE
+id,region_id,province_id,name
 2fad0dfa-927d-4c21-b07e-ad4b46b128c7,16,01,Agurain/Salvatierra 
 338c2022-7dee-473d-988b-3ded10135e14,16,01,Alegría-Dulantzi
 a40e996d-e8e3-4884-9319-2c2b5ce39ad1,16,01,Amurrio
