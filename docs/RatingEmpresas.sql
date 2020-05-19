@@ -36,7 +36,7 @@ GO
 -- -----------------------------------------------------
 CREATE TABLE regions (
   [id] CHAR(2) NOT NULL,
-  [name] NVARCHAR(30) NOT NULL,
+  [name] VARCHAR(30) NOT NULL,
   PRIMARY KEY ([id]))
  ;
 
@@ -46,7 +46,7 @@ CREATE TABLE regions (
 -- -----------------------------------------------------
 CREATE TABLE provinces (
   [id] CHAR(2) NOT NULL,
-  [name] NVARCHAR(30) NOT NULL,
+  [name] VARCHAR(30) NOT NULL,
   PRIMARY KEY ([id]))
  ;
 
@@ -56,7 +56,7 @@ CREATE TABLE provinces (
 -- -----------------------------------------------------
 CREATE TABLE cities (
   [id] CHAR(36) NOT NULL,
-  [name] NVARCHAR(60) NOT NULL,
+  [name] VARCHAR(60) NOT NULL,
   [region_id] CHAR(2) NOT NULL,
   [province_id] CHAR(2) NOT NULL,
   PRIMARY KEY ([id])
